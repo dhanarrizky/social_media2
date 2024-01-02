@@ -1,0 +1,23 @@
+.search {
+    color: white;
+    width: 350px;
+    height: 100vh;
+    padding: 15px;
+    padding-top: 45px;
+    border-right: grey solid 1px;
+    border-left: grey solid 1px;
+    position: fixed;
+    top: 0px;
+    left: 100px;
+}
+
+.search-form form {
+    display: flex;
+    gap: 10px;
+}
+
+.result-form {
+    margin-top: 20px;
+    border-top: white solid 1px;
+    padding-top: 20px;
+}

@@ -1,0 +1,45 @@
+h1 {
+    color: white;
+}
+
+.auth {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-card {
+    border: gray solid 1px;
+    padding: 20px;
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.auth-card h1 {
+    margin: auto;
+}
+
+.auth-card form ,.form-regist{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form input {
+    width: 97%;
+    color: white;
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+button {
+    color: white;
+    background-color: grey;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}

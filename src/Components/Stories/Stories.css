@@ -1,0 +1,50 @@
+.stories {
+    display: flex;
+    left: 80px;
+    /* overflow: hidden; */
+}
+
+.story-content {
+    display: flex;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+.story-content::-webkit-scrollbar {
+    display: none;
+}
+
+.card-story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+
+.stories a {
+    /* background-color: transparent; */
+    color: white;
+    position: absolute;
+    border: none;
+    font-size: 30px;
+}
+
+.right-button{
+    top: 70px;
+    right: 30px;
+}
+
+.left-button{
+    top: 70px;
+    left: 320px;
+}
+
+.moveing{
+    top: 70px;
+    left: 120px;
+}
+
+.hidden {
+    display: none;
+}

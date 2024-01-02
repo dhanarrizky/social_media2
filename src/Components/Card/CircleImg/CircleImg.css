@@ -1,0 +1,9 @@
+.circle {
+    padding: 20px;
+}
+
+.circle img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+}

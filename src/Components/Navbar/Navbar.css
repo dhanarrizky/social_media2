@@ -1,0 +1,69 @@
+.navbar {
+    border-right:white solid 1px;
+    padding-top: 20px;
+    height: 100vh;
+    color: white;
+    position: fixed;
+    font-size: 20px;
+}
+
+.navbar .logo {
+    margin: 20px;
+}
+
+.navbar .nav-menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.navbar .nav-menu ul li {
+    margin: 3px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 100px;
+    display: flex;
+    gap: 10px;
+}
+
+.link-class {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    gap: 10px;
+}
+
+.navbar .nav-menu ul li:hover {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.navbar .nav-menu ul li:hover .link-class, li:hover p, li:hover .icons {
+    background-color: white;
+    color: black;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-mini {
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.hidden {
+    display: none;
+}
+
+.navbar .nav-menu ul li.li-short {
+    padding-left: 26px;
+    padding-right: 26px;
+}
+
+.navbar-content {
+    display: flex;
+}
